@@ -2167,7 +2167,7 @@ h2{
     .card-producto{
         min-width: 100px;
         max-width: 200px;           
-        height: 270px;
+        height: 300px;
         background: var(--black);
         border-radius: 20px 
     }
@@ -2283,7 +2283,7 @@ h2{
     }
     .card-carrito{
         width: 100%;
-        height: 250px;
+        height: 270px;
         border: 2px var(--electric-blue) solid;
         display: flex;
         flex-direction: column;
@@ -2304,11 +2304,13 @@ h2{
     }
     .carrito-h4{
         color: var(--fucsia);
+        font-size: 12px;
 
     }
     .carrito-h3{
         color:var(--electric-blue);
         font-weight: 700;
+        font-size: 12px;
     
     }
  
@@ -2323,7 +2325,7 @@ h2{
     }
     .botones {
         width: 100%;
-        padding: 0.5rem;
+        padding: 0.8rem;
         height: 30px;
         display: flex;
         justify-content: center;
@@ -2400,6 +2402,7 @@ h2{
         justify-content: space-around;
         border-bottom: 1px var(--electric-blue) solid;
         background: var(--electric-blue);
+        margin-bottom: 1rem;
     }
     .precio-total{
         font-size: 20px;
