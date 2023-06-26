@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Caveat:wght@600;700&family=Cinzel+Decorative&family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Overpass:wght@400;700&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin+Sketch:wght@700&family=Caveat:wght@600;700&family=Cinzel+Decorative&family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Overpass:wght@400;700&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <title>tienda Virtual</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <i class="fa-sharp fa-solid fa-store"></i>
+
+            <h1 class="logo">shopping place</h1>
+            
+         
+            <i class="fa-sharp fa-solid fa-store"></i>
+        </header>                      
+        
+               
+        <!---------carrito------------>
+        <h2 class="carrito-h2" id="carrito">carrito</h2>
+
+        <h3 class="carrito-vacio" id="carrito-vacio">carrito vacio</h3>
+
+        <section class="contenedor-carrito disabled" id="contenedor-carrito">
+                    
+
+
+        </section>
+
+        <div class="carrito-total disabled" id="carrito-total">
+
+
+            <div class="container-comprar">
+                <div class="total">
+                    <p class="precio-total">total:</p>
+                    <p class="precio-total" id="total">50$</p>
+                </div>
+
+                <div class="botones">
+                    <div class="btn-vaciar">
+                        <button id="vaciar" class="vaciar">vaciar carrito</button>
+                    </div>
+
+                    <div class="btn-comprar">
+                        <a class="comprar" id="comprar" href="https://wa.me/584146249781" target="_blank">comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="mensaje-final">al terminar su compra por whatsapp, por favor, haga click en "vaciar carrito"</h4>
+        </div>
+
+        <div class="volver">
+            <i class="fa-solid fa-backward-step"></i>
+            <a class="volver-a" href="./index.html"> volver y seguir comprando</a>
+        </div>
+
+
+        
+        <footer class="footer">
+            <ul class="footer-ul">
+                <li class="footer-li">pago movil</li>
+                <li class="footer-li">transferencia bancaria</li>          
+                <li class="footer-li">binance pay</li>
+                <li class="footer-li">payeer</li>
+            </ul>
+
+            <p class="footer-p">
+                <i class="fa-solid fa-copyright"></i> derechos reservados jose villasmil 2023
+            </p>
+        </footer>
+
+    
+
+   
+    </main>
+    <script src="./carrito.js"></script>
+</body>
+</html>

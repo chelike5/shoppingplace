@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Caveat:wght@600;700&family=Cinzel+Decorative&family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Overpass:wght@400;700&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <title>tienda Virtual</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <button class="abrir-menu" id="abrir"><i class="fa-solid fa-bars"></i></button>
+            <h1 class="logo">shopping place</h1>
+            
+            <nav class="navbar" id="navbar">
+                <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-xmark"></i></button>
+                <ul class="navbar-ul">
+                    <li id="todos" class="boton-categoria active"><a href="#titulo-principal">todos los productos</a></li>
+                    <li id="vestidos" class="boton-categoria"><a href="#titulo-principal">Vestidos</a></li>
+                    <li id="calzados" class="boton-categoria"><a href="#titulo-principal">calzados</a></li>
+                    <li id="pantalones" class="boton-categoria"><a>pantalones</a></li>
+                    <li class="boton-carrito"><a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i> carrito <span id="numerito" class="numerito">0</span></a></li>
+                    
+                </ul>
+            </nav>
+            <i class="fa-sharp fa-solid fa-store"></i>
+        </header>
+        <h2>con la compra de <span class="gratis">5</span> articulos, el envio es <span class="gratis">gratis!!!</span></h2>
+
+        <section class="slider">
+            <ul class="slider-ul">
+                <li class="slider-li"><img src="./slider/images.jpg" class="img-slider" alt=""></li>
+                <li class="slider-li"><img src="./slider/slider2.jpg" class="img-slider" alt=""></li>
+                <li class="slider-li"><img src="./slider/slider3.jpg" class="img-slider" alt=""></li>
+                <li class="slider-li"><img src="./slider/slider4.jpg" class="img-slider" alt=""></li>
+            </ul>
+            
+        </section>
+        
+
+
+
+        <h2 id="titulo-principal">todos los productos</h2>
+
+
+        <section class="container-productos" id="container-productos">
+
+        
+        </section>
+
+        <section class="social-media">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </section>
+        
+        
+
+
+
+        <footer class="footer">
+            <ul class="footer-ul">
+                <li class="footer-li">pago movil</li>
+                <li class="footer-li">transferencia bancaria</li>          
+                <li class="footer-li">binance pay</li>
+                <li class="footer-li">payeer</li>
+            </ul>
+
+            <p class="footer-p">
+                <i class="fa-solid fa-copyright"></i> derechos reservados jose villasmil 2023
+            </p>
+        </footer>
+
+
+    
+
+   
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
