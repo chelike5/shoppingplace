@@ -1,6 +1,6 @@
 const productos = [
     {
-        nombre: 'vestido 01',
+        nombre: 'Vestido 01',
         precio: 15,
         tallas: '4/6 y 6/8',
         imagen: './vestidos de niñas/vestido01.jpg',
@@ -11,7 +11,7 @@ const productos = [
         },
     },
     {
-        nombre: 'vestido 02',
+        nombre: 'Vestido 02',
         precio: 15,
         tallas: '4/6 y 6/8',
         imagen: './vestidos de niñas/vestido02.jpg',
@@ -22,7 +22,7 @@ const productos = [
         },
     },
     {
-        nombre: 'vestido 03',
+        nombre: 'Vestido 03',
         precio: 15,
         tallas: '4/6 y 6/8',
         imagen: './vestidos de niñas/vestido03.jpg',
@@ -33,7 +33,7 @@ const productos = [
         },
     },
     {
-        nombre: 'vestido 04',
+        nombre: 'Vestido 04',
         precio: 15,
         tallas: '4/6 y 6/8',
         imagen: './vestidos de niñas/vestido04.jpg',
@@ -44,7 +44,40 @@ const productos = [
         },
     },
     {
-        nombre: 'sueco 01',
+        nombre: 'Vestido 05',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './vestidos de niñas/vestido05.jpeg',
+        id: 'vestido-05',       
+        categoria:{
+            nombre: 'Vestidos',
+            id: 'vestidos'
+        },
+    },
+    {
+        nombre: 'Vestido 06',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './vestidos de niñas/vestido06.jpeg',
+        id: 'vestido-06',       
+        categoria:{
+            nombre: 'Vestidos',
+            id: 'vestidos'
+        },
+    },
+    {
+        nombre: 'Vestido 07',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './vestidos de niñas/vestido07.jpeg',
+        id: 'vestido-07',       
+        categoria:{
+            nombre: 'Vestidos',
+            id: 'vestidos'
+        },
+    },
+    {
+        nombre: 'Sueco 01',
         precio: 25,
         tallas: '35 a 40',
         imagen: './calzados/sueco01.jpeg',
@@ -55,7 +88,7 @@ const productos = [
         },
     },
     {
-        nombre: 'sueco 02',
+        nombre: 'Sueco 02',
         precio: 25,
         tallas: '35 a 40',
         imagen: './calzados/sueco02.jpeg',
@@ -66,7 +99,7 @@ const productos = [
         },
     },
     {
-        nombre: 'sueco 03',
+        nombre: 'Sueco 03',
         precio: 25,
         tallas: '35 a 40',
         imagen: './calzados/sueco03.jpeg',
@@ -74,6 +107,83 @@ const productos = [
         categoria:{
             nombre: 'Calzados',
             id: 'calzados'
+        },
+    },
+    {
+        nombre: 'Blusa 01',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './ropa_niñas/ropa01.jpeg',
+        id: 'blusa-01',       
+        categoria:{
+            nombre: 'Ropa',
+            id: 'ropa'
+        },
+    },
+    {
+        nombre: 'Franela 01',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './ropa_niñas/ropa02.jpeg',
+        id: 'franela-02',       
+        categoria:{
+            nombre: 'Ropa',
+            id: 'ropa'
+        },
+    },
+    {
+        nombre: 'Blusa 02',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './ropa_niñas/ropa03.jpeg',
+        id: 'blusa-02',       
+        categoria:{
+            nombre: 'Ropa',
+            id: 'ropa'
+        },
+    },
+    {
+        nombre: 'Blusa 03',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './ropa_niñas/ropa04.jpeg',
+        id: 'blusa-03',       
+        categoria:{
+            nombre: 'Ropa',
+            id: 'ropa'
+        },
+    },
+    {
+        nombre: 'Short 01',
+        precio: 15,
+        tallas: 'normal',
+        imagen: './ropa_niñas/ropa05.jpeg',
+        id: 'short-01',       
+        categoria:{
+            nombre: 'Ropa',
+            id: 'ropa'
+        },
+    },
+    {
+        nombre: 'Short 02',
+        precio: 15,
+        tallas: 'normal',
+        imagen: './ropa_niñas/ropa06.jpeg',
+        id: 'short-02',       
+        categoria:{
+            nombre: 'Ropa',
+            id: 'ropa'
+        },
+    },
+    {
+        nombre: 'Blusa 04',
+        precio: 15,
+        tallas: '4/6 y 6/8',
+        imagen: './ropa_niñas/ropa07.jpeg',
+        id: 'blusa-04',       
+        categoria:{
+            nombre: 'Ropa',
+            id: 'ropa'
         },
     },
 
