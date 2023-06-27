@@ -227,7 +227,7 @@ function cargarProductos(productosElegidos) {
         <img class="img" src="${producto.imagen}" alt="gomas nike">
         <div class="detalles">
             <h3>${producto.nombre}</h3>
-            <p>${producto.precio}$  <span>-30%</span></p>
+            <p>${producto.precio}$ </p>
         </div>
         <div class="tallas">
             <h4>tallas: ${producto.tallas}</h4>
