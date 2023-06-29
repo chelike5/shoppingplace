@@ -278,6 +278,7 @@ h2{
     }
     h4{
         color: var(--white);
+        font-size: 35px;
         
     }
     .btn-container{
