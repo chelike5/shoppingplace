@@ -9,6 +9,7 @@ const productos = [
             nombre: 'Vestidos',
             id: 'vestidos'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Vestido 02',
@@ -20,6 +21,7 @@ const productos = [
             nombre: 'Vestidos',
             id: 'vestidos'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Vestido 03',
@@ -31,6 +33,7 @@ const productos = [
             nombre: 'Vestidos',
             id: 'vestidos'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Vestido 04',
@@ -42,6 +45,7 @@ const productos = [
             nombre: 'Vestidos',
             id: 'vestidos'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Vestido 05',
@@ -53,6 +57,7 @@ const productos = [
             nombre: 'Vestidos',
             id: 'vestidos'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Vestido 06',
@@ -64,6 +69,7 @@ const productos = [
             nombre: 'Vestidos',
             id: 'vestidos'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Vestido 07',
@@ -75,7 +81,9 @@ const productos = [
             nombre: 'Vestidos',
             id: 'vestidos'
         },
+        marca: 'H & M'
     },
+    // clazados
     {
         nombre: 'Sueco 01',
         precio: 25,
@@ -86,6 +94,7 @@ const productos = [
             nombre: 'Calzados',
             id: 'calzados'
         },
+        marca: 'LOL surprise'
     },
     {
         nombre: 'Sueco 02',
@@ -97,6 +106,7 @@ const productos = [
             nombre: 'Calzados',
             id: 'calzados'
         },
+        marca: 'LOL surprise'
     },
     {
         nombre: 'Sueco 03',
@@ -108,7 +118,9 @@ const productos = [
             nombre: 'Calzados',
             id: 'calzados'
         },
+        marca: 'LOL surprise'
     },
+    //ropa de niñas
     {
         nombre: 'Blusa 01',
         precio: 15,
@@ -119,6 +131,7 @@ const productos = [
             nombre: 'Ropa',
             id: 'ropa'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Franela 01',
@@ -130,6 +143,7 @@ const productos = [
             nombre: 'Ropa',
             id: 'ropa'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Blusa 02',
@@ -141,6 +155,7 @@ const productos = [
             nombre: 'Ropa',
             id: 'ropa'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Blusa 03',
@@ -152,28 +167,31 @@ const productos = [
             nombre: 'Ropa',
             id: 'ropa'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Short 01',
-        precio: 15,
-        tallas: 'normal',
+        precio: 12,
+        tallas: '4/6 y 6/8',
         imagen: './ropa_niñas/ropa05.jpeg',
         id: 'short-01',       
         categoria:{
             nombre: 'Ropa',
             id: 'ropa'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Short 02',
-        precio: 15,
-        tallas: 'normal',
+        precio: 12,
+        tallas: '4/ y 6/8',
         imagen: './ropa_niñas/ropa06.jpeg',
         id: 'short-02',       
         categoria:{
             nombre: 'Ropa',
             id: 'ropa'
         },
+        marca: 'H & M'
     },
     {
         nombre: 'Blusa 04',
@@ -185,6 +203,7 @@ const productos = [
             nombre: 'Ropa',
             id: 'ropa'
         },
+        marca: 'H & M'
     },
 
 ]
@@ -227,10 +246,12 @@ function cargarProductos(productosElegidos) {
         <img class="img" src="${producto.imagen}" alt="gomas nike">
         <div class="detalles">
             <h3>${producto.nombre}</h3>
+            
             <p>${producto.precio}$ </p>
         </div>
         <div class="tallas">
             <h4>tallas: ${producto.tallas}</h4>
+            <h4>marca: ${producto.marca}</h4>
         </div>
 
         <div class="btn-container">
