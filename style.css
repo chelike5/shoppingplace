@@ -278,7 +278,7 @@ h2{
     }
     h4{
         color: var(--white);
-        font-size: 35px;
+        font-size: 25px;
         
     }
     .btn-container{
@@ -764,6 +764,7 @@ h2{
         justify-content: space-around;
         align-items: center;
         margin-top: 1rem;
+        flex-direction: column;
     }
     h3{
         font-size: 25px;
@@ -1262,6 +1263,7 @@ h2{
         justify-content: center;
         align-items: center;
         padding: 0.5rem;
+        flex-direction: column;
     }
     h4{
         color: var(--white);
@@ -1734,6 +1736,7 @@ h2{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         padding: 0.5rem;
     }
     h4{
@@ -2187,11 +2190,11 @@ h2{
         margin-top: 1rem;
     }
     h3{
-        font-size: 25px;
+        font-size: 16px;
         color: var(--orange);
     }
     p{
-        font-size: 15px;
+        font-size: 16px;
         color: var(--green);
     }
     span{
@@ -2205,6 +2208,7 @@ h2{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         padding: 0.5rem;
     }
     h4{
