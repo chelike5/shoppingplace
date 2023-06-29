@@ -278,7 +278,7 @@ h2{
     }
     h4{
         color: var(--white);
-        font-size: 25px;
+        
     }
     .btn-container{
         width: 100%;        
@@ -2208,6 +2208,8 @@ h2{
     }
     h4{
         color: var(--white);
+        font-size: 25px;
+
     }
     .btn-container{
         width: 100%;        
